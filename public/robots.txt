@@ -1,0 +1,19 @@
+# SahiVahan Robots.txt
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /inquire
+Allow: /reviews
+Allow: /feedback
+Allow: /blog
+Allow: /blog/*
+Allow: /about
+Allow: /contact
+
+# Disallow Internal Admin Portal from search engine indexes
+Disallow: /admin
+Disallow: /admin/*
+
+# Sitemap
+Sitemap: https://sahivahan.com/sitemap.xml
+
